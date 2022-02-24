@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(255, 240, 221);
+}
+
+nav {
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    margin-top: 0px;
+    background-color: aqua;
+    height: 40px;
+}
+
+nav ul {
+    margin: 7px 0px;
+
+}
+
+nav ul li {
+    /* height: 10px; */
+    display: inline;
+}
+
+a {
+    margin: 0px;
+    padding-right: 10px;
+}
+
+a:hover {
+    background-color: blue;
+    color: white;
+}
+
+section {
+    float: left;
+    width: 30%;
+    height: 80vh;
+    margin-top: 40px;
+    /* display: block; */
+    padding: 20px 0px;
+}
+
+aside {
+    float: left;
+    margin-top: 40px;
+    width: 70%;
+    height: 80vh;
+    text-align: center;
+}
+main{
+    margin-top: 60px;
+    height: 80vh;
+}
+
+footer {
+    clear: both;
+    /* margin-top: 530px; */
+    background-color: aqua;
+    text-align: center;
+    width: 100%;
+}
